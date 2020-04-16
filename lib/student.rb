@@ -52,6 +52,8 @@ class Student
     new_students = Student.new(row[0], row[1], row[2])
     new_students
   end  
+  
+  
    
   def update
     sql = "UPDATE students SET name = ?, grade = ? WHERE id = ?"

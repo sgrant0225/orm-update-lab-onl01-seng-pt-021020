@@ -53,7 +53,7 @@ class Student
     new_students
   end  
   
-  def selffind_by_name
+  def self.find_by_name
     
   end  
    

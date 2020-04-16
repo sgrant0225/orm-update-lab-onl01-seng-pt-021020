@@ -49,8 +49,8 @@ class Student
   end 
   
   def self.new_from_db(row) #use this method to create all the Ruby objects.
-    new_students = Student.new()
-    new_students.id = row[0]
+    new_students = Student.new(row[0], )
+    new_students.id = 
     new_students.name = row[1]
     new_students.grade = row[2]
     new_students

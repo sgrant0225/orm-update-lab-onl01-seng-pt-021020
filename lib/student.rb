@@ -53,7 +53,9 @@ class Student
     new_students
   end  
   
-  
+  def find_by_name
+    
+  end  
    
   def update
     sql = "UPDATE students SET name = ?, grade = ? WHERE id = ?"
